@@ -1,0 +1,22 @@
+{"obj": {"type": "AssignInt", "path": ["hparam", "steps"], "value": 2000}, "version": 1}
+{"obj": {"type": "AssignFloat", "path": ["hparam", "ccp_alpha"], "value": 0.0}, "version": 2}
+{"obj": {"type": "AssignFloat", "path": ["hparam", "max_samples"], "value": 0.8}, "version": 3}
+{"obj": {"type": "LogFloats", "path": ["hparam", "SNR(R2)"], "values": [{"value": 0.4145730189000384, "step": null, "ts": 1684166737.5753012}]}, "version": 4}
+{"obj": {"type": "UploadFile", "path": ["plot", "train", "0"], "ext": "png", "file_path": null, "tmp_file_name": "plot_train_0-1684166739.399784-2023-05-16_01.05.39.399784.png", "clean_after_upload": false}, "version": 5}
+{"obj": {"type": "UploadFile", "path": ["plot", "test", "0"], "ext": "png", "file_path": null, "tmp_file_name": "plot_test_0-1684166740.005253-2023-05-16_01.05.40.005253.png", "clean_after_upload": false}, "version": 6}
+{"obj": {"type": "LogFloats", "path": ["metrics", "RandomForest", "brier"], "values": [{"value": 0.37677053824362605, "step": null, "ts": 1684166740.078044}]}, "version": 7}
+{"obj": {"type": "LogFloats", "path": ["metrics", "RandomForest", "f1"], "values": [{"value": 0.623229461756374, "step": null, "ts": 1684166740.0788622}]}, "version": 8}
+{"obj": {"type": "LogFloats", "path": ["metrics", "RandomForest", "precision"], "values": [{"value": 0.623229461756374, "step": null, "ts": 1684166740.0794659}]}, "version": 9}
+{"obj": {"type": "LogFloats", "path": ["metrics", "RandomForest", "recall"], "values": [{"value": 0.623229461756374, "step": null, "ts": 1684166740.080043}]}, "version": 10}
+{"obj": {"type": "UploadFile", "path": ["metrics", "RandomForest", "conf_mtx", "0"], "ext": "png", "file_path": null, "tmp_file_name": "metrics_RandomForest_conf_mtx_0-1684166740.154306-2023-05-16_01.05.40.154306.png", "clean_after_upload": false}, "version": 11}
+{"obj": {"type": "LogFloats", "path": ["metrics", "DecisionTree - Bagging", "brier"], "values": [{"value": 0.36827195467422097, "step": null, "ts": 1684166740.154952}]}, "version": 12}
+{"obj": {"type": "LogFloats", "path": ["metrics", "DecisionTree - Bagging", "f1"], "values": [{"value": 0.6317280453257791, "step": null, "ts": 1684166740.155651}]}, "version": 13}
+{"obj": {"type": "LogFloats", "path": ["metrics", "DecisionTree - Bagging", "precision"], "values": [{"value": 0.6317280453257791, "step": null, "ts": 1684166740.156251}]}, "version": 14}
+{"obj": {"type": "LogFloats", "path": ["metrics", "DecisionTree - Bagging", "recall"], "values": [{"value": 0.6317280453257791, "step": null, "ts": 1684166740.1568341}]}, "version": 15}
+{"obj": {"type": "UploadFile", "path": ["metrics", "DecisionTree - Bagging", "conf_mtx", "0"], "ext": "png", "file_path": null, "tmp_file_name": "metrics_DecisionTree - Bagging_conf_mtx_0-1684166740.23225-2023-05-16_01.05.40.232250.png", "clean_after_upload": false}, "version": 16}
+{"obj": {"type": "LogFloats", "path": ["metrics", "RandomForest - Bagging", "brier"], "values": [{"value": 0.3654390934844193, "step": null, "ts": 1684166740.23294}]}, "version": 17}
+{"obj": {"type": "LogFloats", "path": ["metrics", "RandomForest - Bagging", "f1"], "values": [{"value": 0.6345609065155807, "step": null, "ts": 1684166740.233622}]}, "version": 18}
+{"obj": {"type": "LogFloats", "path": ["metrics", "RandomForest - Bagging", "precision"], "values": [{"value": 0.6345609065155807, "step": null, "ts": 1684166740.2342122}]}, "version": 19}
+{"obj": {"type": "LogFloats", "path": ["metrics", "RandomForest - Bagging", "recall"], "values": [{"value": 0.6345609065155807, "step": null, "ts": 1684166740.234783}]}, "version": 20}
+{"obj": {"type": "UploadFile", "path": ["metrics", "RandomForest - Bagging", "conf_mtx", "0"], "ext": "png", "file_path": null, "tmp_file_name": "metrics_RandomForest - Bagging_conf_mtx_0-1684166740.310948-2023-05-16_01.05.40.310948.png", "clean_after_upload": false}, "version": 21}
+{"obj": {"type": "LogFloats", "path": ["hparam", "SNR(R2)"], "values": [{"value": 0.417239533286911, "step": null, "ts": 1684166740.3301}]}, "version": 22}

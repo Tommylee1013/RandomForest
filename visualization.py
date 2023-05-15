@@ -23,10 +23,7 @@ def plotMetrics(X_test, y_test, fit, ax = None, hist = True) :
     y_pred_rf = fit.predict_proba(X_test)[:, 1]
     y_pred = fit.predict(X_test)
     fpr_rf, tpr_rf, _ = metrics.roc_curve(y_test, y_pred_rf)
-    print(metrics.classification_report(y_test, y_pred, target_names = ['no trade',' trade']))
-
-    #if ax is None :
-        #ax = plt.gca()
+    #print(metrics.classification_report(y_test, y_pred, target_names = ['no trade',' trade']))
 
     if hist :
         ax = sns.displot(fit.predict_proba(X_test), height=4, aspect=2, alpha=0.4, kde=True)

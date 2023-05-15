@@ -1,0 +1,23 @@
+{"obj": {"type": "AssignInt", "path": ["hparam", "steps"], "value": 200}, "version": 1}
+{"obj": {"type": "AssignFloat", "path": ["hparam", "ccp_alpha"], "value": 0.0}, "version": 2}
+{"obj": {"type": "AssignFloat", "path": ["hparam", "max_samples"], "value": 0.6}, "version": 3}
+{"obj": {"type": "LogFloats", "path": ["hparam", "SNR(R2)"], "values": [{"value": 0.2100288332123773, "step": null, "ts": 1684163881.4468071}]}, "version": 4}
+{"obj": {"type": "UploadFile", "path": ["plot", "train", "0"], "ext": "png", "file_path": null, "tmp_file_name": "plot_train_0-1684163883.041132-2023-05-16_00.18.03.041132.png", "clean_after_upload": false}, "version": 5}
+{"obj": {"type": "UploadFile", "path": ["plot", "test", "0"], "ext": "png", "file_path": null, "tmp_file_name": "plot_test_0-1684163883.850769-2023-05-16_00.18.03.850769.png", "clean_after_upload": false}, "version": 6}
+{"obj": {"type": "LogFloats", "path": ["metrics", "RandomForest", "brier"], "values": [{"value": 0.3870967741935484, "step": null, "ts": 1684163883.9027698}]}, "version": 7}
+{"obj": {"type": "LogFloats", "path": ["metrics", "RandomForest", "f1"], "values": [{"value": 0.6129032258064516, "step": null, "ts": 1684163883.9034429}]}, "version": 8}
+{"obj": {"type": "LogFloats", "path": ["metrics", "RandomForest", "precision"], "values": [{"value": 0.6129032258064516, "step": null, "ts": 1684163883.903965}]}, "version": 9}
+{"obj": {"type": "LogFloats", "path": ["metrics", "RandomForest", "recall"], "values": [{"value": 0.6129032258064516, "step": null, "ts": 1684163883.90447}]}, "version": 10}
+{"obj": {"type": "UploadFile", "path": ["metrics", "RandomForest", "conf_mtx", "0"], "ext": "png", "file_path": null, "tmp_file_name": "metrics_RandomForest_conf_mtx_0-1684163883.988978-2023-05-16_00.18.03.988978.png", "clean_after_upload": false}, "version": 11}
+{"obj": {"type": "LogFloats", "path": ["metrics", "DecisionTree - Bagging", "brier"], "values": [{"value": 0.3548387096774194, "step": null, "ts": 1684163883.9895449}]}, "version": 12}
+{"obj": {"type": "LogFloats", "path": ["metrics", "DecisionTree - Bagging", "f1"], "values": [{"value": 0.6451612903225806, "step": null, "ts": 1684163883.99014}]}, "version": 13}
+{"obj": {"type": "LogFloats", "path": ["metrics", "DecisionTree - Bagging", "precision"], "values": [{"value": 0.6451612903225806, "step": null, "ts": 1684163883.9906518}]}, "version": 14}
+{"obj": {"type": "LogFloats", "path": ["metrics", "DecisionTree - Bagging", "recall"], "values": [{"value": 0.6451612903225806, "step": null, "ts": 1684163883.991152}]}, "version": 15}
+{"obj": {"type": "UploadFile", "path": ["metrics", "DecisionTree - Bagging", "conf_mtx", "0"], "ext": "png", "file_path": null, "tmp_file_name": "metrics_DecisionTree - Bagging_conf_mtx_0-1684163884.064834-2023-05-16_00.18.04.064834.png", "clean_after_upload": false}, "version": 16}
+{"obj": {"type": "LogFloats", "path": ["metrics", "RandomForest - Bagging", "brier"], "values": [{"value": 0.3870967741935484, "step": null, "ts": 1684163884.0653708}]}, "version": 17}
+{"obj": {"type": "LogFloats", "path": ["metrics", "RandomForest - Bagging", "f1"], "values": [{"value": 0.6129032258064516, "step": null, "ts": 1684163884.06596}]}, "version": 18}
+{"obj": {"type": "LogFloats", "path": ["metrics", "RandomForest - Bagging", "precision"], "values": [{"value": 0.6129032258064516, "step": null, "ts": 1684163884.066478}]}, "version": 19}
+{"obj": {"type": "LogFloats", "path": ["metrics", "RandomForest - Bagging", "recall"], "values": [{"value": 0.6129032258064516, "step": null, "ts": 1684163884.066986}]}, "version": 20}
+{"obj": {"type": "UploadFile", "path": ["metrics", "RandomForest - Bagging", "conf_mtx", "0"], "ext": "png", "file_path": null, "tmp_file_name": "metrics_RandomForest - Bagging_conf_mtx_0-1684163884.145576-2023-05-16_00.18.04.145576.png", "clean_after_upload": false}, "version": 21}
+{"obj": {"type": "LogFloats", "path": ["hparam", "SNR(R2)"], "values": [{"value": 0.3009781083643279, "step": null, "ts": 1684163884.1508548}]}, "version": 22}
+{"obj": {"type": "UploadFile", "path": ["plot", "train", "1"], "ext": "png", "file_path": null, "tmp_file_name": "plot_train_1-1684163885.573298-2023-05-16_00.18.05.573298.png", "clean_after_upload": false}, "version": 23}
