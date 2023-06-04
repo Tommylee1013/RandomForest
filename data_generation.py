@@ -11,7 +11,6 @@ stdev = 0.012623971978355785 # S&P500 전구간 stdev
 R1, R2, R3 = 0.012, -0.009, 0.006 # return init value
 INNER_STEPS = 10
 
-
 def _gen_data(phi1, phi2, phi3, flag, stdev, drift, steps):
     # Initial values for lagged returns
     r1, r2, r3 = R1, R2, R3
